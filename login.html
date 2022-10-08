@@ -15,9 +15,9 @@
 <body>
     <!-- 最上方的 bar -->
     <div class="topnav">
-        <a href="https://cccf-61-63-154-173.jp.ngrok.io/login.html">Line Login</a>
-        <a href="https://cccf-61-63-154-173.jp.ngrok.io/profile.html">User Profile</a>
-        <a href="https://cccf-61-63-154-173.jp.ngrok.io/products.html">Line Pay</a>
+        <a href="https://7838-114-37-157-213.jp.ngrok.io/login.html">Line Login</a>
+        <a href="https://7838-114-37-157-213.jp.ngrok.io/profile.html">User Profile</a>
+        <a href="https://7838-114-37-157-213.jp.ngrok.io/products.html">Line Pay</a>
     </div>
     <!-- 按鈕 -->
     <div class="container">
@@ -33,7 +33,7 @@
         function login() {
             // 向我們的伺服器送出 request，取得 Line Login 頁面網址。
             $.get({
-                url: baseLoginApiUrl + 'Url' + "?redirectUrl=https://cccf-61-63-154-173.jp.ngrok.io/profile.html",
+                url: baseLoginApiUrl + 'Url' + "?redirectUrl=https://7838-114-37-157-213.jp.ngrok.io/profile.html",
                 contentType: "application/json;charset=utf-8",
                 success: function (result) {
                     window.location = result; //取得網址並跳轉。
